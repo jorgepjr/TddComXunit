@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoTesteXunit.DominioTest", "teste\CursoTesteXunit.DominioTest\CursoTesteXunit.DominioTest.csproj", "{8D70E150-647C-49A9-A458-1CD6E128F116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoTesteXunit.Dominio", "src\CursoTesteXunit.Dominio\CursoTesteXunit.Dominio.csproj", "{3DA1C821-502C-4BE6-8B0A-6F361551D872}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D70E150-647C-49A9-A458-1CD6E128F116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D70E150-647C-49A9-A458-1CD6E128F116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D70E150-647C-49A9-A458-1CD6E128F116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D70E150-647C-49A9-A458-1CD6E128F116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA1C821-502C-4BE6-8B0A-6F361551D872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA1C821-502C-4BE6-8B0A-6F361551D872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA1C821-502C-4BE6-8B0A-6F361551D872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA1C821-502C-4BE6-8B0A-6F361551D872}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
